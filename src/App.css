@@ -1,0 +1,176 @@
+#root {
+  width:100vw;
+  margin: none;
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+.app{
+  width: 100vw;
+  align-content: center;
+  /* background-color: red; */
+}
+
+:root{
+  --bg:linear-gradient(90deg,,rgb(217, 221, 230), rgb(235, 240, 240));
+  --shadow:0px 0px 15px 3px rgb(174, 184, 201);
+}
+/* 
+#me{
+  width:40%;
+  background-color: white;
+  color:black;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: var(--shadow)
+}
+#me #profile-pic{
+  width:100%;
+  border-radius: 10px 10px 0 0;
+}
+#me p, #me h2{
+  padding:0 5% ;
+  text-align: left;
+}
+#welcome-section{
+  background: var(--bg);
+  padding-top: 10vh;
+  text-align: center;
+  color:black;
+  padding-bottom: 5%;
+}
+#welcome-section h1{
+  font-size: 2.5rem;
+  margin-bottom: 0;
+  max-width: 80%;
+  margin: 5% auto;
+  animation-name:zoom;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation: blink 3s ease;
+} */
+
+
+
+/* background animation
+#circle{
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  left:10px;
+  opacity: 50%;
+  animation: circle-move 20s ease 0s infinite;
+}
+*/
+#projects{
+  background: var(--bg);
+  text-align: center;
+  color:black;
+  padding-top: 3px;
+}
+
+#project-heading{
+  font-size: 1.75rem;
+}
+.project-tile{
+  width:320px;
+  height:400px;
+  margin-top:5%;
+  background-color: white;
+  box-shadow: var(--shadow);
+  border-radius:10px;
+  padding:2.5%;
+}
+.project-tile:hover{
+  scale:105%;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  cursor: pointer;
+}
+.project-tile img{
+  width:100%;
+  border-radius: 10px 10px 0 0;
+}
+.project-tile h2, .project-tile p{
+ color:black;
+ text-decoration:none;
+ padding:0 5%;
+ text-align: left;
+}
+.project-tile h2{
+  margin-top:20px;
+}
+.project-tile a{
+  text-decoration: none;
+
+}
+
+#projects-box{
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+  /*padding: 0 5%; need to add this*/
+
+}
+#contact{
+  height:10vh;
+  background: var(--bg);
+  padding-top: 5vh;
+  text-align: center;
+}
+
+/* @media screen and (min-width:375px) {
+  #profile-pic{
+      width:45%;
+  }
+}
+
+@media  screen and (min-width:1000px) {
+  #profile-pic{
+      width:40%;
+  }
+} */
+
+
+@keyframes zoom {
+  0%{
+      font-size:2.4rem;
+  }
+  100%{
+      font-size: 2.5rem;
+  }
+}
+
+@keyframes blink {
+  0%{
+      text-shadow: 0px 0px 2px rgb(117, 143, 214);
+  }
+  25%{
+      text-shadow: 0px 0px 0px;
+  }
+  50%{
+      text-shadow: 0px 0px 2px rgb(238, 211, 207);
+  }
+  65%{
+      text-shadow: 0px 0px 0px;
+  }
+  75%{
+      text-shadow: 0px 0px 2px rgb(221, 219, 137);
+  }
+  100%{
+      text-shadow: 0px 0px 0px;
+  }
+}
+
+
+
+
+
+

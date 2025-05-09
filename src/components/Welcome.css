@@ -1,0 +1,66 @@
+
+
+
+#welcome{
+    background: var(--bg);
+    padding-top: 10vh;
+    text-align: center;
+    color:black;
+    padding-bottom: 5%;
+    min-width: 300px;
+    
+    
+    
+  }
+
+  .nice-to-meet{
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    max-width: 80%;
+    margin: 5% auto;
+    font-weight: bolder;
+  }
+
+  
+  
+  #me{
+    width:40%;
+    background-color: white;
+    color:black;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    min-width: 400px;
+  }
+
+  #me #profile-pic{
+    width:100%;
+    border-radius: 10px 10px 0 0;
+    margin: 0 auto;
+  }
+  #me p, #me h2{
+    padding:0 5% ;
+    text-align: left;
+  }
+
+  @media screen  and (max-width:800px){
+    #me{
+        width:60%;
+    }
+    
+  }
+
+
+  @media screen and (max-width:500px){
+    #me{
+        width:95%;
+        min-width: none;
+    }
+    .nice-to-meet{
+        width:95%;
+    }
+   
+  }
+  
+  

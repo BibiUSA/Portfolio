@@ -1,0 +1,22 @@
+.project-tile{
+    width:320px;
+    height:450px;
+    margin-top:5%;
+    background-color: white;
+    box-shadow: var(--shadow);
+    border-radius:10px;
+    padding:2.5%;
+  }
+
+
+
+
+
+@media screen and (max-width:500px){
+  
+
+    .project-tile{
+        width:95%;
+    }
+  }
+

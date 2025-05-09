@@ -1,0 +1,26 @@
+
+#navbar{
+    background:linear-gradient(rgb(41, 42, 44),black);
+    position: fixed;
+    top:0;
+    width:100vw;
+    height:5vh;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    
+  }
+  
+  #navigation{
+    padding-right: 5%;
+  }
+  #navbar a{
+    color:rgba(238, 238, 238, 0.754);
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding-right:5vh;
+  }
+  #navbar a:hover{
+    color:white;
+    transition-duration: 0.3s;
+  }

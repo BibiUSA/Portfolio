@@ -1,0 +1,15 @@
+export const skills_array = [
+  "React JS",
+  "postgreSQL",
+  "NodeJS",
+  "Python",
+  "VS Code",
+  "GitHub",
+  "RESTful API",
+  "Cursor AI",
+  "Linux",
+  "Machine Learning",
+  "TypeScript",
+  "Responsive Design",
+  "Redux Toolkit",
+];
