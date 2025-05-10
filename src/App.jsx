@@ -5,6 +5,7 @@ import "./App.css";
 import Welcome from "./components/Welcome";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
