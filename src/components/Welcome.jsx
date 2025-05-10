@@ -19,7 +19,11 @@ export default function Welcome() {
         repeat={Infinity}
       />
       <div id="me">
-        <img id="profile-pic" src="public/Profile-pic.jpg" alt="profile pic" />
+        <img
+          id="profile-pic"
+          src="/Portfolio/Profile-pic.jpg"
+          alt="profile pic"
+        />
         <h2>I love building beautiful, performant applications.</h2>
         <p>
           I specialize in creating intuitive user interfaces and scalable
