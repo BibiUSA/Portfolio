@@ -5,10 +5,12 @@
     padding-top: 1%;
     border-radius:10px;
     padding-bottom: 10px;
-    box-shadow: var(--shadow)
-    
-  
+    box-shadow: var(--shadow);
+    min-height: 8rem;
+    color: black;
   }
+
+
   #skills h2{
    margin: 2% auto;
   }

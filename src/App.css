@@ -12,7 +12,8 @@
 }
 
 :root{
-  --bg:linear-gradient(90deg,,rgb(217, 221, 230), rgb(235, 240, 240));
+  /* --bg:linear-gradient(90deg,,rgb(217, 221, 230), rgb(235, 240, 240)); */
+  --bg: linear-gradient(rgb(241, 242, 245), white);
   --shadow:0px 0px 15px 3px rgb(174, 184, 201);
 }
 /* 
@@ -138,6 +139,11 @@
   }
 } */
 
+.line{
+  border-color: red;
+  width:2px;
+  height:100%;
+}
 
 @keyframes zoom {
   0%{

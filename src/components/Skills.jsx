@@ -49,12 +49,6 @@ export default function Skills() {
         {spreadTypeAnimation()}
         {spreadTypeAnimation()}
       </div>
-
-      {/* <ScrollVelocity
-        texts={[shuffled_skills.concat(shuffled_skills).join(" , ")]}
-        numCopies={1}
-        className="skill-scroll-text"
-      /> */}
     </div>
   );
 }
