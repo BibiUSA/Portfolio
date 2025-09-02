@@ -33,6 +33,14 @@ export const project_data = [
     alt: "MMA gym pic",
     link: "https://mma-gym.onrender.com/",
   },
+  {
+    img_src: "/Portfolio/weather.png",
+    name: "Weather Web App",
+    description:
+      "Check the current weather of any city in the world. Powered by Flask and OpenWeather API.",
+    alt: "MMA gym pic",
+    link: "https://flask-weatherapp-pk6l.onrender.com/",
+  },
 
   {
     img_src: "/Portfolio/Rock-paper-scissors-screenshot.png",
